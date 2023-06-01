@@ -7,10 +7,17 @@ Current analytical approaches studying the regulation of gene expression in resp
 ### Data 
 write about everything that was done to original data up to this point, cite kliebenstein and loudet papers
 ### Significance Tests
-![parents-variance](Figures/significancetests_parents.png)
-![rils-variance](Figures/significancetests_rils.png)
+Script:[significance_comparison.R](Scripts/significance_comparison.R)
+
+![parent variance](Figures/significancetests_parents.png)![ril variance](Figures/significancetests_rils.png)
+### Principal Component Analysis
 ### 3 Quantitative Trait Loci Analyses
-![qtl map unscaled](Figures/QTLfrequency.png)
-![qtl map delta scaled](Figures/QTLfrequency_deltascaled.png)
+Scripts: [SAqtl.R](Scripts/SAqtl.R), [SWqtl.R)](Scripts/SWqtl.R), [SASWqtl.R](Scripts/SASWqtl.R)
+
+![qtl map unscaled](Figures/QTLfrequency.png)![qtl map delta scaled](Figures/QTLfrequency_deltascaled.png)
 ### Randomization and Permutations
+Script: [qtl_slidingwindow_and_permutations.R](Scripts/qtl_slidingwindow_and_permutations.R)
 ### Cis Vs Trans Identification and Quantification
+Scripts:
+### Effect Size Calculation
+Scripts:
