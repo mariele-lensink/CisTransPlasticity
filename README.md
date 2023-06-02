@@ -6,11 +6,13 @@ Current analytical approaches studying the regulation of gene expression in resp
 
 ### Data 
 write about everything that was done to original data up to this point, cite kliebenstein and loudet papers
+## Workflow
 ### Significance Tests
 Script:[significance_comparison.R](Scripts/significance_comparison.R)
 
 ![parent variance](Figures/significancetests_parents.png)![ril variance](Figures/significancetests_rils.png)
 ### Principal Component Analysis
+Script: [PCA.R](Scripts/PCA.R)
 ### 3 Quantitative Trait Loci Analyses
 Scripts: [SAqtl.R](Scripts/SAqtl.R), [SWqtl.R)](Scripts/SWqtl.R), [SASWqtl.R](Scripts/SASWqtl.R)
 
@@ -18,6 +20,8 @@ Scripts: [SAqtl.R](Scripts/SAqtl.R), [SWqtl.R)](Scripts/SWqtl.R), [SASWqtl.R](Sc
 ### Randomization and Permutations
 Script: [qtl_slidingwindow_and_permutations.R](Scripts/qtl_slidingwindow_and_permutations.R)
 ### Cis Vs Trans Identification and Quantification
-Scripts:
+Scripts:[cistrans_distance_calculator.R](Scripts/cistrance_distance_calculator.R), [figures_cistrans.R](Scripts/figures_cistrans.R)
 ### Effect Size Calculation
-Scripts:
+Scripts: [QTL_effectsize.R](Scripts/QTL_effectsize.R) 
+
+
